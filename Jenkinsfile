@@ -17,7 +17,7 @@ pipeline {
         stage('Docker Build') {
             steps {
                 script {
-                    sh 'docker build -t subham/website:v1 .'
+                    sh 'wsl docker build -t subham/website:v1 .'
                 }
             }
         }
